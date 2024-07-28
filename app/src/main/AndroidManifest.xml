@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/clgimg"
+        android:label="Attendance System"
+        android:roundIcon="@drawable/clgimg"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Student_Attendance_System"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".MonthAttendanceReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterNewStudent"
+            android:exported="false" />
+        <activity
+            android:name=".ReadExcel"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".AttendanceReportTeacher"
+            android:exported="false" />
+        <activity
+            android:name=".Attendance"
+            android:exported="false" />
+        <activity
+            android:name=".AddLectures"
+            android:exported="false" />
+        <activity
+            android:name=".CreateLecture"
+            android:exported="false" />
+        <activity
+            android:name=".PresentyAddpter"
+            android:exported="false" />
+        <activity
+            android:name=".Presenty"
+            android:exported="false" />
+        <activity
+            android:name=".StudentRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDashbord"
+            android:exported="false" />
+        <activity
+            android:name=".StudentDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Success"
+            android:exported="false" />
+        <activity
+            android:name=".TotalTeacherWithSubject"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+    </application>
+
+</manifest>

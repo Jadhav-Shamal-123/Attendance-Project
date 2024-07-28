@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Student_Attendance_System</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="course_master">Course Master</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="maharastra"><b><font color="#FF0000" size="20">MAHARASTRA STATE BOARD OF TECHNICAL EDUCATION</font></b></string>
+
+    <string-array name="sp_main">
+        <item>Select Course</item>
+        <item>Computer</item>
+        <item>Meachanical</item>
+        <item>Electrical</item>
+        <item>Civil</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="submited_successfully">Submited Successfully</string>
+    <string name="hello_balasaheb">Hello Balasaheb</string>
+
+
+    <string-array name="months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+
+
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Attendance">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/attendanceTbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:title="Take Attendance" />
+
+        <TextView
+            android:id="@+id/DateTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:textSize="16sp" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/studentlistRVL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="____________________________________________________________________________"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Present"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_border"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Total"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_border"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Absent"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_border"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+
+        <TextView
+            android:id="@+id/tx_pcount"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Present"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_border"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/tx_tcount"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Total"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_border"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/tx_acount"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Absent"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_border"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Submit" />
+
+</LinearLayout>

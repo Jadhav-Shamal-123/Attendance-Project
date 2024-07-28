@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pressed_color">#F5EEF8 </color>
+    <color name="focused_color">#FACAF7F5</color>
+    <color name="login_color">#52BE80</color>
+    <color name="lavender">#8692f7</color>
+    <color name="blue">#0000ff</color>
+    <color name="header">#8806ce</color>
+    <color name="colorPrimary_sec">#4CAF50</color>
+    <color name="colorPrimary">#FC4253</color>
+    <color name="cardline">#eff0f3</color>
+    <color name="Orange">#fd7e14</color>
+    <color name="Purple">#6f42c1</color>
+    <color name="Yellow">#ffc107</color>
+    <color name="blue_Primary">#007bff</color>
+    <color name="green">#28a745</color>
+    <color name="Teal">#20c997</color>
+    <color name="Gray">#6c757d</color>
+
+    <dimen name="spacing_standard_new">16dp</dimen>
+    <dimen name="spacing_standard">8dp</dimen>
+    <dimen name="spacing_control">4sp</dimen>
+
+
+</resources>
