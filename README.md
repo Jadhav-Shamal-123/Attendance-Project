@@ -31,7 +31,7 @@ List of Teachers
 -------------------------------------------
 Message To Parent
 -------------------------------------------
-![msg to parent](https://github.com/user-attachments/assets/b192ace9-2baa-4df2-928d-0539d5c8e32a)
+![msg to parent](https://github.com/user-attachments/assets/0e15fade-2879-4c15-9828-6fe187b7998e)
 --------------------------------------------
 Register Teacher
 -------------------------------------------
@@ -45,7 +45,7 @@ Select Teacher
 -------------------------------------------
 ![select teacher](https://github.com/user-attachments/assets/4f8480e7-8529-4fbd-93e0-05c64f71cdbd)
 -----------------
-Select Year and Brach
+Select Year and Branch
 -------------------------------------------
 ![select year and branch](https://github.com/user-attachments/assets/ead33bf5-fd1d-4dc8-a544-8746c3728c4f)
 -----------------------
